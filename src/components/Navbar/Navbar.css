@@ -1,0 +1,42 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-container .item {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-container .item2 {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.Light {
+  color: black;
+  background-color: #f0f0f0;
+}
+
+.Dark {
+  color: #f0f0f0;
+  background-color: black;
+}
+
+.nav-Light {
+  background-color: #f0f0f0;
+  border: 1px solid black;
+}
+
+.nav-Dark {
+  background-color: black;
+  border: 2px solid;
+}
+
+.nav-container .itme3{
+  justify-self: flex-end;
+  margin-left: 500px;
+}
