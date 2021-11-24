@@ -35,10 +35,11 @@ export default function Textform(props) {
     setText(t.join(" "));
     props.alert("Extra space has been removed from the text");
   }
+
   return (
     <>
       <div className="text-container">
-        <h1 class={`text-${props.mode}`}>{props.title}</h1>
+        <h1 className={`text-${props.mode}`}>{props.title}</h1>
         <textarea
           onChange={handleOnChangeEvent}
           value={text}
@@ -52,13 +53,13 @@ export default function Textform(props) {
           <button onClick={handleCopy}>Copy Text</button>
           <button onClick={handleRemove}>Remove Extra Space</button>
         </div>
-        <h2 class={`text-${props.mode}`}>Your text summary</h2>
-        <p class={`text-${props.mode}`}> 
-          {text.split(" ").length} words and {text.length} characters
+        <h2 className={`text-${props.mode}`}>Your text summary</h2>
+        <p className={`text-${props.mode}`}> 
+          {text.split(" ").filter((e) => {return e.length!==0}).length} words and {text.length} characters
         </p>
-        <p class={`text-${props.mode}`}>{text.split(" ").length * 0.008} Minutes read</p>
-        <h2 class={`text-${props.mode}`}>Preview</h2>
-        <p class={`text-${props.mode}`}>{text}</p>
+        <p className={`text-${props.mode}`}>{text.split(" ").length * 0.008} Minutes read</p>
+        <h2 className={`text-${props.mode}`}>Preview</h2>
+        <p className={`text-${props.mode}`}>{text}</p>
       </div>
     </>
   );
