@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nikhilgupta58/textutils.git/static/css/main.4b19bb54.chunk.css",
-    "main.js": "/nikhilgupta58/textutils.git/static/js/main.28159ea8.chunk.js",
-    "main.js.map": "/nikhilgupta58/textutils.git/static/js/main.28159ea8.chunk.js.map",
-    "runtime-main.js": "/nikhilgupta58/textutils.git/static/js/runtime-main.898582bb.js",
-    "runtime-main.js.map": "/nikhilgupta58/textutils.git/static/js/runtime-main.898582bb.js.map",
-    "static/js/2.ba8363ad.chunk.js": "/nikhilgupta58/textutils.git/static/js/2.ba8363ad.chunk.js",
-    "static/js/2.ba8363ad.chunk.js.map": "/nikhilgupta58/textutils.git/static/js/2.ba8363ad.chunk.js.map",
-    "static/js/3.13d54fbd.chunk.js": "/nikhilgupta58/textutils.git/static/js/3.13d54fbd.chunk.js",
-    "static/js/3.13d54fbd.chunk.js.map": "/nikhilgupta58/textutils.git/static/js/3.13d54fbd.chunk.js.map",
-    "index.html": "/nikhilgupta58/textutils.git/index.html",
-    "static/css/main.4b19bb54.chunk.css.map": "/nikhilgupta58/textutils.git/static/css/main.4b19bb54.chunk.css.map",
-    "static/js/2.ba8363ad.chunk.js.LICENSE.txt": "/nikhilgupta58/textutils.git/static/js/2.ba8363ad.chunk.js.LICENSE.txt"
+    "main.css": "/nikhilgupta58/textutils/static/css/main.4b19bb54.chunk.css",
+    "main.js": "/nikhilgupta58/textutils/static/js/main.9b2a1229.chunk.js",
+    "main.js.map": "/nikhilgupta58/textutils/static/js/main.9b2a1229.chunk.js.map",
+    "runtime-main.js": "/nikhilgupta58/textutils/static/js/runtime-main.800aa8f6.js",
+    "runtime-main.js.map": "/nikhilgupta58/textutils/static/js/runtime-main.800aa8f6.js.map",
+    "static/js/2.a9271e69.chunk.js": "/nikhilgupta58/textutils/static/js/2.a9271e69.chunk.js",
+    "static/js/2.a9271e69.chunk.js.map": "/nikhilgupta58/textutils/static/js/2.a9271e69.chunk.js.map",
+    "static/js/3.f96a6974.chunk.js": "/nikhilgupta58/textutils/static/js/3.f96a6974.chunk.js",
+    "static/js/3.f96a6974.chunk.js.map": "/nikhilgupta58/textutils/static/js/3.f96a6974.chunk.js.map",
+    "index.html": "/nikhilgupta58/textutils/index.html",
+    "static/css/main.4b19bb54.chunk.css.map": "/nikhilgupta58/textutils/static/css/main.4b19bb54.chunk.css.map",
+    "static/js/2.a9271e69.chunk.js.LICENSE.txt": "/nikhilgupta58/textutils/static/js/2.a9271e69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.898582bb.js",
-    "static/js/2.ba8363ad.chunk.js",
+    "static/js/runtime-main.800aa8f6.js",
+    "static/js/2.a9271e69.chunk.js",
     "static/css/main.4b19bb54.chunk.css",
-    "static/js/main.28159ea8.chunk.js"
+    "static/js/main.9b2a1229.chunk.js"
   ]
 }
