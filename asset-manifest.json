@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/nikhilgupta58/textutils/static/css/main.4b19bb54.chunk.css",
-    "main.js": "/nikhilgupta58/textutils/static/js/main.9b2a1229.chunk.js",
-    "main.js.map": "/nikhilgupta58/textutils/static/js/main.9b2a1229.chunk.js.map",
-    "runtime-main.js": "/nikhilgupta58/textutils/static/js/runtime-main.800aa8f6.js",
-    "runtime-main.js.map": "/nikhilgupta58/textutils/static/js/runtime-main.800aa8f6.js.map",
-    "static/js/2.a9271e69.chunk.js": "/nikhilgupta58/textutils/static/js/2.a9271e69.chunk.js",
-    "static/js/2.a9271e69.chunk.js.map": "/nikhilgupta58/textutils/static/js/2.a9271e69.chunk.js.map",
-    "static/js/3.f96a6974.chunk.js": "/nikhilgupta58/textutils/static/js/3.f96a6974.chunk.js",
-    "static/js/3.f96a6974.chunk.js.map": "/nikhilgupta58/textutils/static/js/3.f96a6974.chunk.js.map",
-    "index.html": "/nikhilgupta58/textutils/index.html",
-    "static/css/main.4b19bb54.chunk.css.map": "/nikhilgupta58/textutils/static/css/main.4b19bb54.chunk.css.map",
-    "static/js/2.a9271e69.chunk.js.LICENSE.txt": "/nikhilgupta58/textutils/static/js/2.a9271e69.chunk.js.LICENSE.txt"
+    "main.css": "/nikhilgupta58.github.io/textutils/static/css/main.4b19bb54.chunk.css",
+    "main.js": "/nikhilgupta58.github.io/textutils/static/js/main.9b2a1229.chunk.js",
+    "main.js.map": "/nikhilgupta58.github.io/textutils/static/js/main.9b2a1229.chunk.js.map",
+    "runtime-main.js": "/nikhilgupta58.github.io/textutils/static/js/runtime-main.716a7907.js",
+    "runtime-main.js.map": "/nikhilgupta58.github.io/textutils/static/js/runtime-main.716a7907.js.map",
+    "static/js/2.a9271e69.chunk.js": "/nikhilgupta58.github.io/textutils/static/js/2.a9271e69.chunk.js",
+    "static/js/2.a9271e69.chunk.js.map": "/nikhilgupta58.github.io/textutils/static/js/2.a9271e69.chunk.js.map",
+    "static/js/3.f96a6974.chunk.js": "/nikhilgupta58.github.io/textutils/static/js/3.f96a6974.chunk.js",
+    "static/js/3.f96a6974.chunk.js.map": "/nikhilgupta58.github.io/textutils/static/js/3.f96a6974.chunk.js.map",
+    "index.html": "/nikhilgupta58.github.io/textutils/index.html",
+    "static/css/main.4b19bb54.chunk.css.map": "/nikhilgupta58.github.io/textutils/static/css/main.4b19bb54.chunk.css.map",
+    "static/js/2.a9271e69.chunk.js.LICENSE.txt": "/nikhilgupta58.github.io/textutils/static/js/2.a9271e69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.800aa8f6.js",
+    "static/js/runtime-main.716a7907.js",
     "static/js/2.a9271e69.chunk.js",
     "static/css/main.4b19bb54.chunk.css",
     "static/js/main.9b2a1229.chunk.js"
