@@ -4,6 +4,9 @@ import PropTypes from "prop-types";
 import Textform from "./components/Textform/Textform";
 import React, { useState } from "react";
 import Alert from "./components/Alert/Alert";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import modeStatus from "./context/modeStatus";
+import AlertContext from "./context/AlertContext";
 
 function App() {
   const [mode, setMode] = useState("Light");
@@ -21,24 +24,33 @@ function App() {
   const [alert, setAlert] = useState(null);
   const showAlert = (text) => {
     setAlert({
-      text:text
-    })
-    setTimeout(()=>{
+      text: text,
+    });
+    setTimeout(() => {
       setAlert(null);
-    },1000)
+    }, 1000);
   };
   return (
-    <>
-      <Navbar title="Textutils" toggle={toggle} mode={mode} />
-      <Alert msg={alert} />
-      <div className="container">
-        <Textform
-          title="Enter the text to analyze below"
-          mode={mode}
-          alert={showAlert}
-        />
-      </div>
-    </>
+    <Router>
+      <modeStatus.Provider value={{ mode: mode }}>
+        <Navbar title="Textutils" toggle={toggle} />
+        <AlertContext.Provider value={{ alert, showAlert }}>
+          <Alert />{" "}
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <div className="container">
+                  <Textform title="Enter the text to analyze below">
+                    <h3>Enter the text below</h3>
+                  </Textform>
+                </div>
+              }
+            />
+          </Routes>
+        </AlertContext.Provider>
+      </modeStatus.Provider>
+    </Router>
   );
 }
 
