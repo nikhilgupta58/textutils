@@ -38,7 +38,7 @@ function App() {
           <Alert />{" "}
           <Routes>
             <Route
-              path="/"
+              path="/textutils"
               element={
                 <div className="container">
                   <Textform title="Enter the text to analyze below">
